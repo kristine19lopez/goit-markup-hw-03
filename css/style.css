@@ -51,7 +51,7 @@ body {
 .list {
     list-style: none;
 }
-.list{
+.menu{
     display: flex;
     gap: 40px;
 }
@@ -129,7 +129,7 @@ body {
     padding: 120px 0;
 }
 .visually-hidden{
-    visibility: hidden;
+    vis: hidden;
 }
 .sec{
     display: flex;
@@ -141,9 +141,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
-    width: calc(100% - 72px)/4 ;
+    flex-basis: calc((100% - 72px)/4);
     margin-bottom: 8px;
-
 }
 .list-text {
     font-size: 16px;
@@ -152,6 +151,12 @@ body {
     color: var(--SLATE);
 }
 /* section3 */
+.section-three{
+    padding: 120px;
+}
+.picture{
+    flex-basis: calc((100% - 48px) / 3) ;
+}
 .header-title {
     font-size: 36px;
     line-height: 1.11;
@@ -159,13 +164,27 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--NAVY-BLUE);
+    margin-bottom: 72px;
 }
 /* section4 */
 .section-four {
     background-color: var(--CLOUD);
+    padding: 120px 0;
 }
 .team {
-    background-color: var(--WHITE)
+    background-color: var(--WHITE);
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: (0px 0px 4px 4px) ;
+}
+.team-info{
+    padding: 32px;
+}
+.name{
+    margin-bottom: 8px;
+    text-align: center;
+}
+.position{
+    text-align: center;
 }
 /* footer */
 .footer {
