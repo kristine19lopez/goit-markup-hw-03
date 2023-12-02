@@ -125,12 +125,25 @@ body {
     margin: auto;
 }
     /* section2 */
+.section-two{
+    padding: 120px 0;
+}
+.visually-hidden{
+    visibility: hidden;
+}
+.sec{
+    display: flex;
+    gap: 24px;
+}
 .list-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
+    width: calc(100% - 72px)/4 ;
+    margin-bottom: 8px;
+
 }
 .list-text {
     font-size: 16px;
