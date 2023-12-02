@@ -91,6 +91,7 @@ body {
 /* section1 */
 .section-one {
     background-color: var(--NAVY-BLUE);
+    padding: 188px 0;
 }
 .header-one {
     font-size: 56px;
@@ -98,6 +99,8 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--WHITE);
+    max-width: 496px;
+    margin: auto;
 }
 .button-one {
     background-color: var(--IRIS);
@@ -112,6 +115,14 @@ body {
 .button-one:hover,
 .button-one:focus {
     background-color: var(--moderate-blue);
+}
+.button-one{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
 }
     /* section2 */
 .list-header {
