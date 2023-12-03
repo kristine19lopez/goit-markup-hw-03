@@ -153,8 +153,10 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
-    flex-basis: calc((100%-3*24px)/4);
     margin-bottom: 8px;
+}
+.info{
+    flex-basis: calc((100%-3*24px)/4);
 }
 .list-text {
     font-size: 16px;
@@ -166,7 +168,7 @@ body {
 .section-three {
     padding: 120px;
 }
-.img-link {
+.img-info {
     flex-basis: calc((100% - 48px) / 3);
 }
 .header-title {
