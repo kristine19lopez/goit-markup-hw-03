@@ -54,7 +54,7 @@ body {
 .list {
     list-style: none;
 }
-.menu{
+.menu {
     display: flex;
     gap: 40px;
 }
@@ -153,7 +153,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
-    flex-basis: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 72px) / 4);
     margin-bottom: 8px;
 }
 .list-text {
@@ -163,11 +163,11 @@ body {
     color: var(--SLATE);
 }
 /* section3 */
-.section-three{
+.section-three {
     padding: 120px;
 }
-.image-link{
-    flex-basis: calc((100% - 48px) / 3) ;
+.image-link {
+    flex-basis: calc((100% - 48px) / 3);
 }
 .header-title {
     font-size: 36px;
@@ -186,7 +186,10 @@ body {
 .team {
     background-color: var(--WHITE);
     flex-basis: calc((100% - 72px) / 4);
-    border-radius: (0px 0px 4px 4px);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px; 
+    border-top-right-radius: 4px; 
+    border-bottom-left-radius: 4px;
 }
 .team-info {
     padding: 32px 0;
@@ -203,7 +206,7 @@ body {
     background-color: var(--NAVY-BLUE);
     padding: 100px 0;
 }
-.logo{
+.footer .link{
     display: inline-block;
     margin-bottom: 16px;
 
@@ -218,7 +221,6 @@ body {
     max-width: 26px;
 }
 
-
 /* portfolio page */
 
 .button-portfolio {
@@ -230,18 +232,46 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-   
+   padding: 12px 24px;
+   border: 1px solid var(--CORNFLOWER);
+   border-radius: 4px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
     color: var(--WHITE);
     background-color: var(--moderate-blue);
+    border: 1px solid transparent;
+}
+
+    /* main */
+.section-portfolio{
+    padding-top: 96px;
+}
+.option{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 /* list of pictures */
 .link{
     text-decoration: none;
 }
-.image{
+.svc {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.svc-item{
+    flex-basis: ((100% - 48px) / 3);
+}
+.port-container{
+    padding: 32px 16ox;
+    border: 1px solid var(--CORNFLOWER);
+    border-top: none;
+    margin-bottom: 8px;
+}
+.image{s
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
