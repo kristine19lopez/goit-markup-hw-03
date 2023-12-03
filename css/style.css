@@ -39,8 +39,8 @@ body {
     text-transform: uppercase;
     color: var(--IRIS);
  }
- #img{display: block;
-
+ img {
+    display: block;
  }
  .logo{
     margin: 76px;
@@ -153,7 +153,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100%-3*24px)/4);
     margin-bottom: 8px;
 }
 .list-text {
@@ -166,7 +166,7 @@ body {
 .section-three {
     padding: 120px;
 }
-.image-link {
+.img-link {
     flex-basis: calc((100% - 48px) / 3);
 }
 .header-title {
@@ -186,10 +186,7 @@ body {
 .team {
     background-color: var(--WHITE);
     flex-basis: calc((100% - 72px) / 4);
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px; 
-    border-top-right-radius: 4px; 
-    border-bottom-left-radius: 4px;
+    border-radius: 0 0 4px 4px;
 }
 .team-info {
     padding: 32px 0;
@@ -244,11 +241,12 @@ body {
 }
 
     /* main */
-.section-portfolio{
-    padding-top: 96px;
+.sec-portfolio{
+    padding-top: 96px 0 120px 0;
 }
 .option{
     display: flex;
+    justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
 }
