@@ -157,7 +157,7 @@ body {
 }
 .info-card {
     flex-basis: calc((100% - 72px) / 4);
-}
+  }
 .list-text {
     font-size: 16px;
     line-height: 1.5;
