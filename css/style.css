@@ -39,6 +39,9 @@ body {
     text-transform: uppercase;
     color: var(--IRIS);
  }
+ #img{display: block;
+
+ }
  .logo{
     margin: 76px;
  }
