@@ -147,6 +147,9 @@ body {
     display: flex;
     gap: 24px;
 }
+.info-card{
+    flex-basis: calc((100% - 72px) / 4);
+}
 .list-header {
     font-weight: 500;
     font-size: 20px;
@@ -156,6 +159,7 @@ body {
     margin-bottom: 8px;  
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
+.list-menu
 .list-text {
     font-size: 16px;
     line-height: 1.5;
