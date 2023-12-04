@@ -153,11 +153,9 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
-    margin-bottom: 8px;
-}
-.list-menu {
+    margin-bottom: 8px;  
     flex-basis: calc((100% - 3 * 24px) / 4)
-  }
+}
 .list-text {
     font-size: 16px;
     line-height: 1.5;
