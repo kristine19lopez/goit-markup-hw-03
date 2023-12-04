@@ -155,7 +155,7 @@ body {
     color: var(--NAVY-BLUE);
     margin-bottom: 8px;
 }
-.card {
+.list-menu {
     flex-basis: calc((100% - 3 * 24px) / 4)
   }
 .list-text {
