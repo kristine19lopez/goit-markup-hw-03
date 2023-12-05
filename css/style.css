@@ -148,7 +148,7 @@ body {
     gap: 24px;
 }
 .svc-infoindex  {
-    width: calc((100% - 72px ) / 4);
+    flex-basis: calc((100% - 72px ) / 4);
 }
 .list-header {
     font-weight: 500;
