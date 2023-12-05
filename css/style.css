@@ -14,14 +14,14 @@ body {
     background-color: var(--WHITE);
 }
 /* header */
-.header{
+.header {
     border-bottom: 1px solid #e7e9fc;
 }
 .top-head {
     display: flex;
     justify-content: space-between;
 }
-.container{
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px; 
@@ -58,7 +58,7 @@ body {
     display: flex;
     gap: 40px;
 }
-.item{
+.item {
     padding: 24px 0;
 }
 
@@ -83,12 +83,12 @@ body {
     letter-spacing: 0.02em;
     color:var(--SLATE);
 }
-.add{
+.add {
     display: flex;
     gap: 40px;
 }
 .contact>.contacts:hover,
-.contact>.contacts:focus{
+.contact>.contacts:focus {
     color: var(--moderate-blue);
 }
 /* section1 */
@@ -119,7 +119,7 @@ body {
 .button-one:focus {
     background-color: var(--moderate-blue);
 }
-.button-one{
+.button-one {
     display: block;
     min-width: 169px;
     height: 56px;
@@ -128,10 +128,10 @@ body {
     margin: auto;
 }
     /* section2 */
-.section-two{
+.section-two {
     padding: 120px 0;
 }
-.visually-hidden{
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -143,11 +143,11 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-.sec{
+.sec {
     display: flex;
     gap: 24px;
 }
-.info-card{
+.info-card {
     flex-basis: calc((100% - 72px) / 4);
 }
 .list-header {
@@ -195,7 +195,7 @@ body {
 .team-info {
     padding: 32px 0;
 }
-.name{
+.name {
     margin-bottom: 8px;
     text-align: center;
 }
@@ -207,7 +207,7 @@ body {
     background-color: var(--NAVY-BLUE);
     padding: 100px 0;
 }
-.footer .link{
+.footer .link {
     display: inline-block;
     margin-bottom: 16px;
 
@@ -248,14 +248,14 @@ body {
 .section-five {
     padding: 96px 0 120px 0;
 }
-.option{
+.option {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
 }
 /* list of pictures */
-.link{
+.link {
     text-decoration: none;
 }
 .svc {
@@ -264,7 +264,7 @@ body {
     column-gap: 24px;
     row-gap: 48px;
 }
-.svc-info{
+.svc-info {
     flex-basis: calc((100% - 48px) / 3);
 }
 .port-container {
@@ -280,7 +280,7 @@ body {
     color: var(--NAVY-BLUE);
     margin-bottom: 8px;
 }
-.text-image{
+.text-image {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
