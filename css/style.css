@@ -147,8 +147,8 @@ body {
     display: flex;
     gap: 24px;
 }
-.info-card {
-    flex-basis: calc((100% - 72px) / 4);
+.svc-info  {
+    width: calc((100% - 72px ) / 4);
 }
 .list-header {
     font-weight: 500;
