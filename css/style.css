@@ -147,7 +147,7 @@ body {
     display: flex;
     gap: 24px;
 }
-.svc-info  {
+.svc-infoindex  {
     width: calc((100% - 72px ) / 4);
 }
 .list-header {
