@@ -147,7 +147,7 @@ body {
     display: flex;
     gap: 24px;
 }
-.svc-infoindex  {
+.infoindex  {
     flex-basis: calc((100% - 72px ) / 4);
 }
 .list-header {
@@ -188,7 +188,6 @@ body {
 }
 .team {
     background-color: var(--WHITE);
-    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
 .team-info {
