@@ -147,9 +147,6 @@ body {
     display: flex;
     gap: 24px;
 }
-.infoindex  {
-    flex-basis: calc((100% - 72px ) / 4);
-}
 .list-header {
     font-weight: 500;
     font-size: 20px;
@@ -188,6 +185,7 @@ body {
 }
 .team {
     background-color: var(--WHITE);
+    flex-basis: calc((100% - 72px ) / 4);
     border-radius: 0 0 4px 4px;
 }
 .team-info {
